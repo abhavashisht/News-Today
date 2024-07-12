@@ -1,0 +1,98 @@
+.header {
+            text-align: center;
+            font-family: "Kanit", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            background-color: #003049;
+            color: aliceblue;
+            font-size: 30px;
+        }
+
+        .header2, footer {
+            text-align: center;
+            background-color: #003049;
+            color: aliceblue;
+        }
+        footer{
+            position: relative;
+            width: 99vw;
+            bottom: 0rem;
+            height: 100px;
+        }
+        .content-main{
+            display: flex;
+            width: 30%;
+            left: 0;
+            right: 0;
+            margin: auto;
+            position: absolute;
+            top: 2rem;
+            font-size: 20px;
+            justify-content: space-evenly;
+        }
+        .navbar {
+            width: 50%;
+            left: 0;
+            right: 0;
+            margin: auto;
+            font-family: "Kanit", sans-serif;
+            font-weight: 300;
+            font-style: normal;
+
+        }
+        ul{
+            width: 100%;
+            list-style-type: none;
+        }
+
+        .flex_container {
+            padding: 40px;
+            margin-left: 155px;
+        }
+
+        img {
+            height: 300px;
+        }
+
+        a {
+            padding: 10px;
+        }
+
+        b {
+            padding-bottom: 0px;
+        }
+
+        .container {
+            display: flex;
+            padding: 30px;
+            font-family: "Merriweather", serif;
+            font-weight: 300;
+            font-style: normal;
+
+        }
+
+        .left {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            margin-left: 100px;
+            margin-top: 20px;
+        }
+
+        .right {
+            flex: 1;
+            padding: 20px;
+            padding-left: 80px;
+            padding-right: 20px;
+        }
+
+        .right2 {
+            flex: 1;
+            padding: 20px;
+            padding-right: 20px;
+        }
+
+        .right img {
+            margin-bottom: 20px;
+        }
